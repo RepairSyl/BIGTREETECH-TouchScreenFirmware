@@ -157,7 +157,7 @@ void menuABL(void)
      {ICON_BACKGROUND,              LABEL_BACKGROUND},
      {ICON_BACKGROUND,              LABEL_BACKGROUND},
      {ICON_BACKGROUND,              LABEL_BACKGROUND},
-     {ICON_BLTOUCH,                 LABEL_BLTOUCH},
+     {ICON_TOUCHMI,                 LABEL_TOUCHMI},
      {ICON_BACKGROUND,              LABEL_BACKGROUND},
      {ICON_HEAT,                    LABEL_PREHEAT},
      {ICON_BACK,                    LABEL_BACK}}
@@ -224,7 +224,7 @@ void menuABL(void)
         break;
 
       case KEY_ICON_4:
-        infoMenu.menu[++infoMenu.cur] = menuBLTouch;
+        infoMenu.menu[++infoMenu.cur] = menuTouchMi;
         break;
 
       case KEY_ICON_6:

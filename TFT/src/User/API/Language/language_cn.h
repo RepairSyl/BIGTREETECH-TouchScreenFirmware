@@ -295,5 +295,11 @@
     #define STRING_EXT_TEMPLOW            "喷头温度低于最小挤出问题 (%d℃)."
     #define STRING_COLD_EXT               "冷挤出保护, 请加热后再操作"
     #define STRING_HEAT_HOTEND            "加热喷头到%d℃?"
-
+    #define STRING_TOUCHMI_INIT           "Init"
+    #define STRING_TOUCHMI_ZOFFSETNEG     "Zoffset -" 
+    #define STRING_TOUCHMI_ZOFFSETPOS     "Zoffset +" 
+    #define STRING_TOUCHMI_SAVE           "Save"
+    #define STRING_TOUCHMI_TEST           "Test"
+    #define STRING_TOUCHMI                "TouchMi"
+    
 #endif

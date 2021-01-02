@@ -295,5 +295,11 @@
     #define STRING_EXT_TEMPLOW            "La température de la buse est inférieure\nà la température minimale (%d℃)."
     #define STRING_COLD_EXT               "Extrusion à froid empêchée"
     #define STRING_HEAT_HOTEND            "Chauffer la buse à %d℃ ?"
-
+    #define STRING_TOUCHMI_INIT           "Init"
+    #define STRING_TOUCHMI_ZOFFSETNEG     "Zoffset -" 
+    #define STRING_TOUCHMI_ZOFFSETPOS     "Zoffset +" 
+    #define STRING_TOUCHMI_SAVE           "Save"
+    #define STRING_TOUCHMI_TEST           "Test"
+    #define STRING_TOUCHMI                "TouchMi"
+    
 #endif
